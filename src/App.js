@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     navigator.mediaDevices.getUserMedia({ 
       video: true, 
-      // audio: true 
+      audio: true 
     })
       .then(stream => {
       //  socket.emit("newClient");
