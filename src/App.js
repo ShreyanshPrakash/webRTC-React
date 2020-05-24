@@ -12,7 +12,7 @@ function App() {
   const initiatorVideo = useRef("#");
   const receiverVideo = useRef("#");
 
-  const socket = io("http://localhost:3000/");
+  const socket = io("http://localhost:3200/");
 
 
   useEffect(() => {
