@@ -110,7 +110,7 @@ function App() {
     <div className="App">
       <div className="initiatorWrapper">
         <h1>Initiator</h1>
-        <video ref={initiatorVideo} className="init"></video>
+        <video ref={initiatorVideo} className="init" muted={true}></video>
       </div>
       <div className="ReceiverWrapper">
         <h1>Reciever</h1>
