@@ -1,0 +1,10 @@
+SERVER : 
+
+on the backendu need to create express then pass that to http and then pass that to socket.io
+
+const app = require('express')();
+const http = require('http').createServer(app);
+const io = require('socket.io')(http);
+
+// to listen to the port, since u r passing the express app to http, listen needs to be done on http
+http.listen( 4200, () => console.log("Listening at port 4200"))
